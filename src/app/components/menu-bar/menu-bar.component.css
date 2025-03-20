@@ -1,3 +1,8 @@
+.container__menu-bar{
+    background-color: #FFFFFF;
+    /* border: 1px black solid; */
+}
+
 .container__menu-bar > ul{
     display: flex;
 }
