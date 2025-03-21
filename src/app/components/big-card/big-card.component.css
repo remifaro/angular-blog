@@ -1,35 +1,45 @@
 .container__big-card{
-    border: solid rgb(221, 9, 9) 2px;
-    border-radius: 1rem;
-    width: 50vw;
-    height: 60vh;
+    border-radius: 2rem;
+    width: 70rem;
+    height: 30rem;
     overflow: hidden;
-    margin-left: 5vh;
+    /* margin-left: 5vh; */
     display: flex;
 }
 
 .big-card__photo{
-    width: 50%;
-}
-
-.big-card__texto{
-    width: 50%;
-    background-color: rgb(218, 103, 87);
-}
-.big-card__texto > h1{
-    font-size: 20px;
-    margin-top: 15px;
-}
-
-.big-card__texto > p{
-    margin-top: 10px;
-}
-
-.big-card__texto > p > a{
-    color: grey;
+    width: 55%;
 }
 
 .big-card__photo > img{
-    width: 100%;
-    min-width: 400px;
+    height: 100%;
+    width:100%;
+}
+
+.big-card__texto{
+    width: 45%;
+    background-color: #030C13;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 3rem;
+    gap: 1rem;
+}
+.big-card__texto h1 > a{
+    font-size: 2rem;
+}
+
+.big-card__texto p > a{
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.big-card__data{
+    color: white;
+    font-weight: bold;
 }

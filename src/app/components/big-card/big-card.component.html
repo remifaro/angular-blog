@@ -1,42 +1,24 @@
 <div class="container__big-card">
     <div class="big-card__photo">
-        <img src="{{photoCover}}" alt="" width="400px">
+        <img src="{{photoCover}}" alt="">
     </div>
-    <a href="">
-
-    </a>
+    <a href=""></a>
 
     <div class="big-card__texto">
-        <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
-        <p>
-            <a href="">
-                {{cardDescription}}
-            </a>
-        </p>
-    </div>
-    <div class="big-card__title">
-        
-    </div>
-    <div class="big-card__description">
-        
+        <div class="big-card__title">
+            <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
+        </div>
+        <div class="big-card__description">
+            <p>
+                <a href="">
+                    {{cardDescription}}
+                </a>
+            </p>
+        </div>
+        <div class="big-card__data">
+            <p>
+                {{cardData}}
+            </p>
+        </div>
     </div>
 </div>
-
-<!-- <div class="container__big-card">
-    <div class="big-card__photo">
-        <img src="{{photoCover}}" alt="" width="400px">
-    </div>
-    <a href="">
-
-    </a>
-    <div class="big-card__title">
-        <h1><a [routerLink]="['content', Id]">{{cardTitle}}</a></h1>
-    </div>
-    <div class="big-card__description">
-        <p>
-            <a href="">
-                {{cardDescription}}
-            </a>
-        </p>
-    </div>
-</div> -->
