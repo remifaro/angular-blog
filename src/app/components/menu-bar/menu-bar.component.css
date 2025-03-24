@@ -54,3 +54,7 @@ a:hover{
     transition: .1s;
     cursor: pointer;
 }
+
+.menu-sanuiche {
+    display: none;
+}
