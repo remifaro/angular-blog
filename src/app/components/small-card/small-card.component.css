@@ -10,7 +10,6 @@
 
 .small-card__photo{
     height: 40%;
-    background-color: aquamarine;
 }
 
 .small-card__photo > img{
@@ -25,6 +24,7 @@
     justify-content: center;
     padding: 2rem 3rem;
     gap: 1rem;
+    background-color: #ffffff;
 }
 
 .small-card__title h1 > a{

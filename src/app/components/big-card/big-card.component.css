@@ -1,6 +1,6 @@
 .container__big-card{
     border-radius: 2rem;
-    width: 70rem;
+    width: 76rem;
     height: 30rem;
     overflow: hidden;
     /* margin-left: 5vh; */
@@ -8,7 +8,7 @@
 }
 
 .big-card__photo{
-    width: 55%;
+    width: 65%;
 }
 
 .big-card__photo > img{

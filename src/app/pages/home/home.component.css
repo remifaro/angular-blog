@@ -1,9 +1,17 @@
 .container__articles{
-    margin-top: 1rem;
+    margin: 0 0 2rem 0;
+    width: auto;
     display:flex;
     justify-content: center;
     gap: 2rem;
     /* background-color: blueviolet; */
+}
 
+.articles__novos{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    /* background-color: rgb(91, 203, 223); */
 }
 

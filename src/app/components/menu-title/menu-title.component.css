@@ -1,24 +1,23 @@
 .container__menu-title{
     color: #333333;
     /* border: 1px solid blue; */
-
-    display: flex;
-    flex-direction: column;
-    align-items: right;
-    justify-content: right;
-    margin-block: 5rem;
-    width: 31%;
+    
+    text-align: left;
+    margin: 4rem 0 4rem 0;
+    width: 40vw;
     margin-inline: auto;
     
 }
 
 .container__menu-title > h1{
-    margin-bottom: 15px;
-    font-size: 5rem;
-    font-weight: 400;
+    margin-bottom: 1.5rem;
+    font-size: 4rem;
+    font-weight: 600;
+    /* background-color: aquamarine; */
+    text-align: left;
 }
 
 .container__menu-title > p{
     font-size: 1.1rem;
-    margin-bottom: .5rem;
+    line-height: 1.8rem;
 }

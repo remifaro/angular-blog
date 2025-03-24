@@ -1,10 +1,10 @@
 .container__menu-bar{
     /* background-color: #a33b3b; */
-    width: 100vw;
+    width: 90vw;
     display:flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .container__menu-bar > img{
@@ -23,6 +23,7 @@
 
 a{
     text-decoration: none;
+    font-weight: 600;
     color: #333333;
 }
 
@@ -33,13 +34,17 @@ a:hover{
 }
 
 .container__menu-bar > button{
-    font-size: 1rem;
+    font-size: .9rem;
+    font-weight: 600;
+
     height: auto;
     width: auto;
-    padding: 1rem 2rem;
+    padding: .9rem 1.8rem;
     border-radius: 2rem;
     background-color: #4C4C4C;
     color: white;
+    border: none;
+
 }
 
 .container__menu-bar > button:hover{
