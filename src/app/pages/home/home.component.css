@@ -4,7 +4,6 @@
     display:flex;
     justify-content: center;
     gap: 2rem;
-    /* background-color: blueviolet; */
 }
 
 .articles__novos{
@@ -12,6 +11,6 @@
     flex-direction: row;
     justify-content: center;
     gap: 1rem;
-    /* background-color: rgb(91, 203, 223); */
+    margin-bottom: 3rem;
 }
 
