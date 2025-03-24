@@ -1,0 +1,31 @@
+@media screen and (max-width: 420px) {
+
+    .container__content{
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .content__title {
+        font-size: .9rem;
+        text-align: center;
+    }
+    
+    .content__description{
+        width: 80vw;
+        text-align: center;
+    }
+
+    .content__cover > img{
+        width: 300px;
+        height: auto;
+    }
+
+    .content__text {
+        width: 80vw;
+        line-height: 2rem;
+        text-align: justify;
+    }
+}

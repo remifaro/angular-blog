@@ -1,0 +1,7 @@
+@media screen and (max-width: 420px){
+    .container__small-card{
+        width: 90vw;
+        height: 28rem;
+        border-radius: 2rem;
+    }
+}

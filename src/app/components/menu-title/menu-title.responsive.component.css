@@ -1,7 +1,18 @@
-@media screen and (max-width: 600px){
-    
-    .container__menu-title > h1{
-        font-size: 30px;
+@media screen and (max-width: 420px){
+    .container__menu-title{
+        margin: 2rem;
+        width: 80vw;
+        margin-inline: auto;
+        
     }
 
+    .container__menu-title > h1{
+        font-size: 1.8rem;
+    }
+
+    .container__menu-title > p{
+        font-size: 1rem;
+        line-height: 1.4rem;
+        text-align: justify;    
+    }
 }

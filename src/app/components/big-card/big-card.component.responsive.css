@@ -1,0 +1,49 @@
+@media screen and (max-width: 420px) {
+    .container__big-card {
+        width: 90vw;
+        height: 100%;
+        overflow: hidden;
+        flex-direction: column;
+        border-radius: 2rem;
+    }
+    
+    .big-card__photo {
+        width: auto;
+        height: auto;
+    }
+    
+    .big-card__photo>img {
+        height: 100%;
+    }
+    
+    .big-card__texto {
+        width: auto;
+        height: auto;        
+        justify-content: center;
+        padding: 2rem;
+        gap: 1rem;
+    }
+    
+    .big-card__texto h1 > a {
+        font-size: .9rem;
+    }
+
+    .big-card__title h1{
+        line-height: .8rem;
+        margin-bottom: .8rem;
+    }
+    
+    .big-card__texto p > a {
+        font-size: .8rem;
+        line-height: 1rem;
+    }
+
+    .big-card__texto p {
+        text-align: justify;
+        margin-bottom: .8rem;
+    }
+    
+    .big-card__data {
+        font-size: .8rem;
+    }
+}
