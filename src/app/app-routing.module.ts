@@ -11,6 +11,10 @@ const routes: Routes = [
   {
     path:'content/:id',
     component:ContentComponent
+  },
+  {
+    path:'**',
+    component:HomeComponent
   }
 ];
 
